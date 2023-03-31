@@ -1,0 +1,165 @@
+/*494CA2*/
+/*8186D5*/
+/*C6CBEF*/
+/*E3E7F1*/
+
+
+body {
+    background-color: #E3E7F1;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+/*    margin: 0 0 0 0;*/
+/*    font-family:'Changa', sans-serif;*/
+
+}
+
+H1 {
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+    color: #494CA2;
+    margin: 0 auto 0 auto;
+}
+
+.light-color {
+    background-color: #494CA2;
+}
+
+.inverse {
+color: #E3E7F1;
+
+}
+
+H2{
+    font-family:'Changa', sans-serif;
+    color: #494CA2;
+    margin: 0px auto 0 auto;
+    font-weight:normal;
+}
+
+H3,H4,H5 {
+    font-family:'Changa', sans-serif;
+    color: #494CA2;
+    padding: 10px 15px 0 15px;
+    text-align: left
+/*    font-weight:normal;*/
+}
+
+H6 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 15px 0 15px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+/*    padding: 5px 15px 0 15px;*/
+    margin: 5px 15px 0 15px;
+    text-align: left;
+    font-size: 1rem;
+
+}
+
+table p {
+margin:0;
+
+
+}
+
+table H6 {
+margin:0;
+padding-left:3rem;
+}
+
+ul {
+margin:0;
+padding-left:6rem;
+
+}
+
+hr {
+    width: 95%;
+
+/*    margin: 50px auto;*/
+}
+
+.dark-border {
+    border-top: solid #C6CBEF;
+}
+
+.light-border {
+    border: solid #8186D5;
+
+}
+
+table {
+    margin: 5px 15px 0 15px;
+    font-size: 1rem;
+
+/*    width:50%*/
+}
+
+td {
+vertical-align:top;
+}
+
+
+
+img {
+    max-width:200px;
+    max-height:200px;
+    border-radius:10%;
+    margin: 0 45px 0 45px;
+    margin-top: calc((250px - 200px)/2)
+
+
+}
+
+
+
+.information {
+
+
+}
+
+.basis {
+
+background-color: #C6CBEF;
+}
+
+.first{
+    min-height: 250px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin:0 auto;
+    padding: 0 auto 0 auto;
+    margin-bottom: 4rem;
+}
+
+.two-col{
+
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    display: inline-block;
+    width: calc((100% - ((3+1) * 2.5%))/ 3 * 2 + 2.5%);
+    float:left;
+    padding-bottom:200px;
+}
+
+.one-col{
+
+    margin-left: 1.25%;
+    margin-right: 1.25%;
+    display: inline-block;
+    width: calc((100% - ((3+1) * 2.5%))/ 3 * 1);
+    float:left;
+    background-color:#8186D5;
+    padding-bottom:600px;
+}
+
+.breaker {
+height : calc((250px - 8rem)/2);
+}
